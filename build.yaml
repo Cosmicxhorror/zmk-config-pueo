@@ -22,4 +22,6 @@ include:
   - board: nice_nano_v2
     shield: pueo_left
   - board: nice_nano_v2
-    shield: pueo_right
+    shield: pueo_right 
+  - board: nice_nano_v2
+    shield: settings_reset
