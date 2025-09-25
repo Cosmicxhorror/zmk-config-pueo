@@ -256,7 +256,7 @@
         aptmak {
             bindings = <
                   &kp W               &kp F           &kp P           &kp B        &kp J         &kp L                     &kp U            &kp Y
-&hl LEFT_SHIFT R  &hl LEFT_CONTROL S  &hl LEFT_ALT T  &hl LEFT_GUI H  &kp K        &kp X         &hr RIGHT_GUI N           &hr RIGHT_ALT A  &hr RIGHT_CONTROL I  &hr RIGHT_SHIFT O
+&hl LEFT_CONTROL R  &hl LEFT_ALT S  &hl LEFT_GUI T  &hl LEFT_SHIFT H  &kp K        &kp X         &hr RIGHT_SHIFT N           &hr RIGHT_GUI A  &hr RIGHT_ALT I  &hr RIGHT_CONTROL O
                   &kp C               &kp G           &kp D                               &kp M  &comsem          &dotcol
                                                                       &lt 1 SPACE                                          &lt 2 E
             >;
