@@ -14,6 +14,12 @@
 &soft_off { hold-time-ms = <5000>; };
 
 / {
+    chosen {
+        zmk,kscan = &kscan_facedown;
+    };
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
 
@@ -109,7 +115,7 @@
 
         bspc {
             timeout-ms = <40>;
-            key-positions = <16 14 15>;
+            key-positions = <16 14>;
             bindings = <&kp BSPC>;
         };
 
@@ -149,7 +155,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <14 16>;
+            key-positions = <14 16 15>;
         };
 
         tab {
